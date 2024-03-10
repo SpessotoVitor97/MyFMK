@@ -1,0 +1,7 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/spessotovitor/Library/Developer/Xcode/DerivedData/MyFMK-esoxghqihnqkcocxqpbqdbbcworz/Build/Intermediates.noindex/ArchiveIntermediates/MyFMK/InstallationBuildProductsLocation/Library/Frameworks/MyFMK.framework/MyFMK'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: _MyFMKVersionString, symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x67, size: 0x8, addend: 0x0, symName: _MyFMKVersionNumber, symObjAddr: 0x28, symBinAddr: 0x4028, symSize: 0x0 }
+...

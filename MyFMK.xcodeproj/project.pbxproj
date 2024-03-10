@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D41F3E52B9B9D6D002A3499 /* MyFMK.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2D41F3E42B9B9D6D002A3499 /* MyFMK.docc */; };
 		2D41F3EB2B9B9D6D002A3499 /* MyFMK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41F3E02B9B9D6D002A3499 /* MyFMK.framework */; };
 		2D41F3F02B9B9D6D002A3499 /* MyFMKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41F3EF2B9B9D6D002A3499 /* MyFMKTests.swift */; };
-		2D41F3F12B9B9D6D002A3499 /* MyFMK.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41F3E32B9B9D6D002A3499 /* MyFMK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D435B532B9BA48F00A9B842 /* Sources in Resources */ = {isa = PBXBuildFile; fileRef = 2D435B522B9BA48F00A9B842 /* Sources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,10 +24,9 @@
 
 /* Begin PBXFileReference section */
 		2D41F3E02B9B9D6D002A3499 /* MyFMK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MyFMK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D41F3E32B9B9D6D002A3499 /* MyFMK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFMK.h; sourceTree = "<group>"; };
-		2D41F3E42B9B9D6D002A3499 /* MyFMK.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFMK.docc; sourceTree = "<group>"; };
 		2D41F3EA2B9B9D6D002A3499 /* MyFMKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFMKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41F3EF2B9B9D6D002A3499 /* MyFMKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFMKTests.swift; sourceTree = "<group>"; };
+		2D435B522B9BA48F00A9B842 /* Sources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +51,8 @@
 		2D41F3D62B9B9D6D002A3499 = {
 			isa = PBXGroup;
 			children = (
-				2D41F3E22B9B9D6D002A3499 /* MyFMK */,
-				2D41F3EE2B9B9D6D002A3499 /* MyFMKTests */,
+				2D435B522B9BA48F00A9B842 /* Sources */,
+				2D41F3FB2B9B9DB9002A3499 /* Tests */,
 				2D41F3E12B9B9D6D002A3499 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -68,21 +66,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2D41F3E22B9B9D6D002A3499 /* MyFMK */ = {
-			isa = PBXGroup;
-			children = (
-				2D41F3E32B9B9D6D002A3499 /* MyFMK.h */,
-				2D41F3E42B9B9D6D002A3499 /* MyFMK.docc */,
-			);
-			path = MyFMK;
-			sourceTree = "<group>";
-		};
 		2D41F3EE2B9B9D6D002A3499 /* MyFMKTests */ = {
 			isa = PBXGroup;
 			children = (
 				2D41F3EF2B9B9D6D002A3499 /* MyFMKTests.swift */,
 			);
 			path = MyFMKTests;
+			sourceTree = "<group>";
+		};
+		2D41F3FB2B9B9DB9002A3499 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2D41F3EE2B9B9D6D002A3499 /* MyFMKTests */,
+			);
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,7 +89,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D41F3F12B9B9D6D002A3499 /* MyFMK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D435B532B9BA48F00A9B842 /* Sources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +191,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D41F3E52B9B9D6D002A3499 /* MyFMK.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
