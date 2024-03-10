@@ -18,7 +18,11 @@ let package = Package(
         .target(
             name: "MyFMK"
         ),
-        .binaryTarget(name: "MySDK", url: "https://github.com/SpessotoVitor97/MyFMK.git", checksum: <#T##String#>)
+        .binaryTarget(
+            name: "MySDK",
+            url: "https://github.com/SpessotoVitor97/xcframeworks/blob/master/MyFMK/1.0.0/MyFMK.xcframework.zip",
+            checksum: "8e1a212d7381e5fbeb4026bc03777e6c96a7a57629e0b8cff217591a8d21a74d"
+        ),
         .testTarget(
             name: "MyFMKTests",
             dependencies: ["MyFMK"]),
